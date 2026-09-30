@@ -21,6 +21,7 @@
                 <td>{{ $mk->id }}</td>
                 <td>{{ $mk->nam_mk }}</td>
                 <td>{{ $mk->sks }}</td>
+                
             </tr>
             @endforeach
         </tbody>

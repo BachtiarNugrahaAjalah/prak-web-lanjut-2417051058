@@ -19,6 +19,7 @@ class MataKuliahController extends Controller
         return view('create_mk', ['title' => 'Create Mata Kuliah']);
     }
 
+    
     public function store(Request $request){
         Matakuliah::create([
             'nama_mk' => $request->input('nama_mk'),

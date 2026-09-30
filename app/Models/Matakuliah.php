@@ -25,6 +25,7 @@ class Matakuliah extends Model
             }
         });
     }
+    // a
 
     public function getAllMK(){
         return $this->all();
