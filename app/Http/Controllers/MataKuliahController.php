@@ -12,7 +12,7 @@ class MataKuliahController extends Controller
             'title' => 'List Mata Kuliah',
             'mks' => Matakuliah::all(),
         ];
-        return view('lsit_mk', $data);
+        return view('list_mk', $data);
     }
 
     public function create(){
@@ -28,6 +28,6 @@ class MataKuliahController extends Controller
         return redirect()->to('/matakuliah');
     }
 
-    
+
 
 }
