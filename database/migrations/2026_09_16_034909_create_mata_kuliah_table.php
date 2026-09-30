@@ -10,16 +10,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('mata_kuliah', function (Blueprint $table) {
-            $table->id();
-            $table->string('nama_mk');
+            $table->uuid('id')->primary();
+            $table->string('nama_mk', 100);
             $table->integer('sks');
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('mata_kuliah');
