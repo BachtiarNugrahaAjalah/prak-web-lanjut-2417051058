@@ -13,7 +13,7 @@
         <label for="sks">SKS:</label><br>
         <input type="number" id="sks" name="sks" required ><br><br>
 
-        <button type=submit>Submmit</button>
+        <button type=submit>Submit</button>
     </form>
 </div>
 @endsection
